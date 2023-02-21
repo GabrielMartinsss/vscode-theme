@@ -1,0 +1,29 @@
+{
+  "name": "krampus",
+  "displayName": "krampusDarkTheme",
+  "description": "Theme Dark Krampus",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GabrielMartinsss/vscode-theme"
+  },
+  "keywords": [
+    "krampus"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "krampusDarkTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/krampus-theme-color-theme.json"
+      }
+    ]
+  }
+}
